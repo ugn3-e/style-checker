@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvColorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체형 진단 가이드"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvColorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 전신 거울 앞에 정면으로 서주세요.
+        \n2. 줄자를 준비해 주세요.
+        \n3. 줄자로 몸의 한쪽 옆선 중심에서 반대쪽 옆선 \n중심까지 신체 곡선을 따라 측정해 주세요."
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#502533"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnShapeStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="시작하기"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#E3DCDE"/>
+</LinearLayout>

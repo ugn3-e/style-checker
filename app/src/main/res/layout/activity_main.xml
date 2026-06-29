@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home2"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="80dp"
+        android:text="Style Check!"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textStyle="bold"
+        android:textColor="#390F1C"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btnColorTest"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#FF95B9"
+        android:text="퍼스널 컬러 정밀 검사"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnShapeTest"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FF95B9"
+        android:text="체형 분석 검사"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnMyResult"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="내 진단 결과 상세 보기"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        android:textSize="18sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/btnRecommend"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="맞춤 화장품 및 코디 추천"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

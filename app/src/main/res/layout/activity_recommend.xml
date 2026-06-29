@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dotall"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="맞춤 화장품 및 코디 추천 결과"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#390F1C"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tvMakeupRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="화장품 추천 멘트가 들어가는 곳"
+            android:fontFamily="@font/zen_serif_regular"
+            android:layout_marginTop="0dp"
+            android:textColor="#502533"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgRec1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#F5F5F5"
+                android:layout_margin="2dp"/>
+
+            <ImageView
+                android:id="@+id/imgRec2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#F5F5F5"
+                android:layout_margin="2dp"/>
+
+            <ImageView
+                android:id="@+id/imgRec3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#F5F5F5"
+                android:layout_margin="2dp"/>
+
+            <ImageView
+                android:id="@+id/imgRec4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#F5F5F5"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/tvOutfitRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="체형 코디 추천 멘트가 들어가는 곳"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgOutfit1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#F5F5F5"
+                android:layout_margin="3dp"/>
+
+            <ImageView
+                android:id="@+id/imgOutfit2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#F5F5F5"
+                android:layout_margin="3dp"/>
+
+            <ImageView
+                android:id="@+id/imgOutfit3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#F5F5F5"
+                android:layout_margin="3dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="홈으로 돌아가기"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#390F1C"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#E3DCDE"/>
+
+    </LinearLayout>
+</ScrollView>

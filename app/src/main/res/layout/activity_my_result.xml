@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/heart2"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 종합 진단 결과"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvColorExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="#502533"
+                android:fontFamily="@font/zen_serif_regular"
+                android:layout_marginBottom="15dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="30dp">
+
+                <View
+                    android:id="@+id/colorBox1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="#F5F5F5"
+                    android:layout_margin="3dp" />
+
+                <View
+                    android:id="@+id/colorBox2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="#F5F5F5"
+                    android:layout_margin="3dp" />
+
+                <View
+                    android:id="@+id/colorBox3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="#F5F5F5"
+                    android:layout_margin="3dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvShapeExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:fontFamily="@font/zen_serif_regular"
+                android:textColor="#502533"
+                android:layout_marginBottom="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnRecommend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="맞춤 화장품 및 코디 추천 보기"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="홈으로 돌아가기"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#E3DCDE"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>

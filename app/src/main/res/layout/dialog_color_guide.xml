@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvColorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="퍼스널 컬러 진단 가이드"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvColorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 자연광이 잘 들어오는 곳에서 확인!
+        \n2. 화장을 지운 맨얼굴이 가장 정확해요.
+        \n3. 친구와 함께 진단하면 더 객관적이에요!"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#502533"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnColorStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="시작하기"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#E3DCDE"/>
+</LinearLayout>

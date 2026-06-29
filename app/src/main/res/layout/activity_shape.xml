@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stargr2"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 신체 수치 입력(inch)"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#390F1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtShoulder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="어깨 둘레"
+            android:textSize="18sp"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtWaist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="허리 둘레"
+            android:textSize="18sp"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtHip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="골반 둘레"
+            android:textSize="18sp"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"
+            android:layout_marginBottom="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 골격 특징 (해당하는 것 모두 체크)"
+            android:textColor="#390F1C"
+            android:textSize="20sp"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+
+        <CheckBox
+            android:id="@+id/chkS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="근육이 잘 붙고 피부에 탄력이 있다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목이 짧은 편이고, 가슴(흉통) 두께감이 있다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="무릎뼈나 쇄골이 크게 도드라지지 않는다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkS4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="허리선이 높고, 상체에 전체적으로 볼륨감이 있다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkS5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="엉덩이의 위치가 위쪽에 붙어 있고 입체적이다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkS6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="살이 찌면 배나 팔뚝 등 상체 위주로 찌는 편이다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:layout_marginBottom="20dp"
+            android:textColor="#502533"/>
+
+
+
+        <CheckBox
+            android:id="@+id/chkW1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상체보다 하체(허벅지, 골반) 쪽에 살이 잘 찐다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkW2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피부 결이 부드럽고 말랑말랑한 편이다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkW3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목이 가늘고 길며, 쇄골이 얇게 두드러진다"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkW4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가슴 위치가 다소 낮고, 상체가 얇고 여리여리하다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkW5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="허리가 가늘고 길며, 골반이나 엉덩이 아래쪽이 발달했다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkW6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="근육이 잘 붙지 않고 전체적으로 뼈대가 얇은 편이다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <CheckBox
+            android:id="@+id/chkN1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어깨 프레임이 넓고 골격(뼈대)이 단단하다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="손과 발이 크고 관절(손가락 마디 등)이 굵다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="살이 쪄도 뼈대가 워낙 좋아 티가 잘 나지 않는다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkN4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="무릎뼈나 쇄골뼈가 굵고 뚜렷하게 도드라진다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkN5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가슴이나 엉덩이의 곡선보다는 직각, 일자형 체형이다"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+        <CheckBox
+            android:id="@+id/chkN6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피부 질감이 약간 매트하거나 뼈의 입체감이 먼저 보인다."
+            android:fontFamily="@font/zen_serif_regular"
+            android:textColor="#502533"/>
+
+
+
+        <Button
+            android:id="@+id/btnShapeFinish"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="체형 분석 완료"
+            android:fontFamily="@font/zen_serif_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#FF4081"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

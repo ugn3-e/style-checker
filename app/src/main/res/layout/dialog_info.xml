@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기본 정보를 입력해주세요."
+        android:textSize="18sp"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#390F1C"/>
+
+    <EditText
+        android:id="@+id/dlgName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:textSize="16sp"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#502533"/>
+
+    <EditText
+        android:id="@+id/dlgHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키 (cm)"
+        android:textSize="16sp"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#502533" />
+
+    <EditText
+        android:id="@+id/dlgWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게 (kg)"
+        android:textSize="16sp"
+        android:fontFamily="@font/zen_serif_regular"
+        android:textColor="#502533" />
+
+</LinearLayout>
